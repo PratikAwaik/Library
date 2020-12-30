@@ -80,11 +80,6 @@ h1 {
     height: 20px;
 }
 
-.book-details:focus {
-    border: 1px solid #33C3F0;
-    outline: none;
-}
-
 #read-checkbox {
     margin-top: 10px;
     margin-bottom: 10px;
