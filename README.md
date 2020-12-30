@@ -1,6 +1,6 @@
 ## Library-App <br>
 The project was made as a part of [the Odin Project](https://theodinproject.com/)<br><br>
-[view live](https://pratikawaik.github.io/Library) <br>
+[View Live](https://pratikawaik.github.io/Library) <br>
 
 ## Features <br>
 - Add and remove books.
