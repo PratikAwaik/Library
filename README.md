@@ -1,8 +1,8 @@
-### Library-App <br>
-The project was made as a part of [the Odin Project](https://theodinproject.com/)<br>
-[view live](https://pratikawaik.github.io/Library) <br><br>
+## Library-App <br>
+The project was made as a part of [the Odin Project](https://theodinproject.com/)<br><br>
+[view live](https://pratikawaik.github.io/Library) <br>
 
-### Features <br>
+## Features <br>
 - Add and remove books.
 - Alter the read status of the books in your library.
 - Stores books in your `localStorage` so that they won't get lost when you re-open the page.
