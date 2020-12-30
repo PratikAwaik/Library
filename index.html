@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Library</title>
+        <link rel="stylesheet" href="styles/style.css">
+        <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+        <div id="particles-js"></div>
+
+        <h1>My Library</h1>
+        <button type="button" id="new-book-btn">+ New Book</button>
+        <div class="popup-form">
+            <form class="form-container">
+                <label for="title">Title: </label><br>
+                <input type="text" name="title" id="title" class="book-details"><br>
+
+                <label for="author">Author: </label><br>
+                <input type="text" name="author" id="author" class="book-details"><br>
+
+                <label for="pages">Pages: </label><br>
+                <input type="number" min="1" name="pages" id="pages" class="book-details"><br>
+
+                <input type="checkbox" name="finished" id="read">
+                <label for="read-checkbox">Read</label><br>
+                
+                <div id="form-buttons">
+                    <button type="button" id="add-book-btn">Add Book</button>
+                    <button type="button" id="cancel-btn">Cancel</button>
+                </div>
+            </form>
+        </div>
+        
+        <div id="container"></div>
+
+        <script src="scripts/main.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+        <script>
+            particlesJS.load("particles-js", "particles.json", function() {
+                console.log("json loaded");
+            })
+        </script>
+    </body>
+</html> 
