@@ -1,6 +1,7 @@
 ## Library-App <br>
 The project was made as a part of [the Odin Project](https://theodinproject.com/)<br><br>
-[View Live](https://pratikawaik.github.io/Library) <br>
+[View Live](https://pratikawaik.github.io/Library) <br><br>
+The background is made using [particles.js](https://github.com/VincentGarreau/particles.js/)
 
 ## Features <br>
 - Add and remove books.
